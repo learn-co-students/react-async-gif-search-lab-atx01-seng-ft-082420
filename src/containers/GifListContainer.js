@@ -23,8 +23,24 @@ export default class GifListContainer extends React.Component {
         })
     }
     
-    handleSubmit = () => {
-
+    //Need state to be just URL ? 
+    handleSubmit = (gif) => {
+        // fetch(url, {
+        //     method: 'POST',
+        //     headers: {
+        //         "Content-Type":"application/json",
+        //         "Accept":"application/json"
+        //       },
+        //     body: JSON.stringify(gif)
+        // })
+        // .then(res => res.json())
+        // .then(gifs =>  {
+        //     // let list = gifs.data.slice(0,4)
+        //     // this.setState({
+        //     //     gifs: list
+        //     // })
+        //     console.log(gifs)
+        // })
     }
 
     render() {
